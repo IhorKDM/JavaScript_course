@@ -14,7 +14,7 @@ Welcome to the JavaScript Course! This guide will help you learn JavaScript from
 
 ## Introduction
 
-JavaScript is a versatile programming language used for web development, server-side applications, and [more](/00-Introduction/README.md).
+JavaScript is a versatile programming language used for web development, server-side applications, and [more](/00-Introduction/Intro.md).
 
 ---
 
