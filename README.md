@@ -8,6 +8,8 @@ Welcome to the JavaScript Course! This guide will help you learn JavaScript from
 
 1. [Introduction](#introduction)
 
+1. [JS Fundamentals - Part 1](#fundamentals-part-1)
+
 1. [Resources](#resources)
 
 ---
@@ -15,6 +17,10 @@ Welcome to the JavaScript Course! This guide will help you learn JavaScript from
 ## Introduction
 
 JavaScript is a versatile programming language used for web development, server-side applications, and [more](/00-Introduction/Intro.md).
+
+---
+
+## JS Fundamentals - Part 1
 
 ---
 
