@@ -537,3 +537,281 @@
       console.log("No borders");
     }
 */
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    Logical Operators                                            |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    const hasDriversLicense = true; // A
+    const hasGoodVision = true; // B
+
+    console.log(hasDriversLicense && hasGoodVision);
+    console.log(hasDriversLicense || hasGoodVision);
+    console.log(hasDriversLicense && !hasGoodVision);
+
+    // if (hasDriversLicense && hasGoodVision) {
+    //   console.log("Sarah is able to drive!");
+    // } else {
+    //   console.log("Someone else should drive...");
+    // }
+
+    const isTired = true; // C
+    console.log(hasDriversLicense && hasGoodVision && isTired);
+
+    if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Sarah is able to drive!");
+    } else {
+    console.log("Someone else should drive...");
+    }
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    Practice Assignments: Logical Operators                      |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    // Comment out the previous code so the prompt doesn't get in the way.
+
+    // Let's say Sarah is looking for a new country to live in. She wants to live in a country that speaks English, has less than 50 million people and is not an island.
+
+    // Write an if statement to help Sarah figure out if your country is right for her. You will need to write a condition that accounts for all of Sarah's criteria. Take your time with this, and check part of the solution if necessary.
+
+    // If yours is the right country, log a strings like this 'You should live in Portugal :)'. If not, log 'Portugal does not meet your criteria :('.
+
+    // Probably your country does not meet all the criteria. So go back and temporarily change some variables in order to make the condition true (unless you live in Canada :D).
+
+    const myCountry = "Ukraine";
+    const myLanguage = "Ukrainian";
+    const myContinent = "Europe";
+    const myPopulation = 44;
+    const isMyCountrySpeakingEnglish = false;
+    const isMyCountryAnIsland = false;
+    
+    if (isMyCountrySpeakingEnglish && myPopulation < 50 && !isMyCountryAnIsland) {
+        console.log(`You should live in ${myCountry} :)`);
+    } else {
+        console.log(`${myCountry} does not meet your criteria :(`);
+}
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    CHALLENGE 3                                                  |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    // There are two gymnastics teams: Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy!
+
+    // Your tasks:
+
+    // 1. Calculate the average score for each team, using the test data included below. The average score for Dolphins should be assigned to the scoreDolphins variable, and the average score of Koalas should be assigned to the scoreKoalas variable.
+
+    // 2. Compare the team's average scores to determine the winner of the competition, and print to the console:
+
+    // "Dolphins win the trophy" if Dolphins win, or
+
+    // "Koalas win the trophy" if Koalas win, or
+
+    // "Both win the trophy" if their average scores are equal.
+
+    // TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
+
+    
+    const scoreDolphins = (96 + 108 + 89) / 3;
+    const scoreKoalas = (88 + 91 + 110) / 3;
+    
+    console.log(`Dolphins: ${scoreDolphins} Koalas: ${scoreKoalas}`);
+    
+    if (scoreDolphins > scoreKoalas) {
+        console.log("Dolphins win the trophy");
+    } else if (scoreKoalas > scoreDolphins) {
+        console.log("Koalas win the trophy");
+    } else {
+        console.log("Both win the trophy");
+    }
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    Switch Statement                                             |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    const day = "monday";
+
+    switch (day) {
+        case "monday":
+            console.log("Сьогодні понеділок");
+            break;
+        case "tuesday":
+            console.log("Сьогодні вівторок");
+            break;
+        case "wednesday":
+            console.log("Сьогодні середа");
+            break;
+        case "thursday":
+            console.log("Сьогодні четвер");
+            break;
+        case "friday":
+            console.log("Сьогодні п'ятниця");
+            break;
+        case "saturday":
+            console.log("Сьогодні субота");
+            break;
+        case "sunday":
+            console.log("Сьогодні неділя");
+            break;
+        default:
+            console.log("Невідомий день");
+    }
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    Practice Assignments: Switch Statement                       |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    // Use a switch statement to log the following string for the given language:
+
+    // chinese or mandarin: 'MOST number of native speakers!';
+
+    // spanish: '2nd place in number of native speakers';
+
+    // english: '3rd place';
+
+    // hindi: 'Number 4';
+
+    // arabic: '5th most spoken language';
+
+    // for all other simply log 'Great language too :D'.
+
+    let language = "Ukrainian";
+
+    switch (language) {
+    case "chinese":
+    case "mandarin":
+        console.log("MOST number of native speakers!");
+        break;
+    case "spanish":
+        console.log("2nd place in number of native speakers");
+        break;
+    case "english":
+        console.log("3rd place");
+        break;
+    case "hindi":
+        console.log("Number 4");
+        break;
+    case "arabic":
+        console.log("5th most spoken language");
+        break;
+    default:
+        console.log("Great language too :D");
+    }
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    Statements and Expressions                                   |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    3 + 4
+    1991
+    true && false && !false
+
+    if (23 > 10) {
+    const str = "23 is bigger";
+    console.log(str);
+    }
+
+    const me = "Jonas";
+    console.log(`I'm ${2037 - 1991} years old`);
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    The Conditional (Ternary) Operator                           |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    const age = 23;
+    // age >= 18
+    //   ? console.log("I like to drink wine 🍷")
+    //   : console.log("I like to drink water 💧");
+
+    const drink = age >= 18 ? "wine 🍷" : "water 💧";
+    console.log(drink);
+
+    let drink2;
+    if (age >= 18) {
+    drink2 = "wine 🍷";
+    } else {
+    drink2 = "water 💧";
+    }
+
+    console.log(drink2);
+
+    console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    Practice Assignments: The Conditional (Ternary) Operator     |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    // If your country's population is greater than 33 million, use the ternary operator to log a string like this to the console: "Portugal's population is above average". Otherwise, simply log "Portugal's population is below average". Notice how only one word change between these two sentences!
+
+    // After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
+
+
+    const myCountry = "Ukraine";
+    const myLanguage = "Ukrainian";
+    const myContinent = "Europe";
+    const myPopulation = 44;
+    const averagePopulation = 33;
+
+    console.log(
+    `${myCountry}'s population is ${
+        myPopulation > averagePopulation ? "above" : "below"
+    } average`
+    );
+*/
+
+//  -----------------------------------------------------------------
+// |                                                                 |
+// |    CHALLENGE 4                                                  |
+// |                                                                 |
+//  -----------------------------------------------------------------
+/*
+    // Steven needs a very simple tip calculator for whenever he goes to eat in a restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
+
+    // Your tasks:
+
+    // Calculate the tip, depending on the bill value. Create a variable called tip for this. It's not allowed to use an if...else statement (if it's easier for you, you can start with an if...else statement, and then try to convert it to a ternary operator).
+
+    // Print a string to the console containing the bill value, the tip, and the final value (bill + tip).
+
+    // Example: The bill was 275, the tip was 41.25, and the total value 316.25.
+
+    // Note: Use the values of the bill and tip variables to construct this string. Don't hard-code them 🙂
+
+    // TEST DATA: Test with different bill values: 275, 40, and 430
+
+    // HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
+
+    // HINT 2: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
+
+    
+    const bill = 40;
+    const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+    const total = bill + tip;
+    
+    console.log(
+        `The bill was ${bill}, the tip was ${tip}, and the total value ${total}`
+    );
+ */
