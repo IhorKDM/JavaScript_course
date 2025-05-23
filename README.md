@@ -22,7 +22,7 @@ JavaScript is a versatile programming language used for web development, server-
 
 ## JS Fundamentals - Part 1
 
----
+This section introduces the foundational concepts of JavaScript through practical examples and exercises. Topics include variables, data types, operators, template literals, and essential control structures such as if/else, switch, and the ternary operator. You will also find hands-on assignments like BMI calculation, population comparisons, and a tip calculator to reinforce your understanding. This part is designed to build a strong base in JavaScript syntax and logic for beginners.
 
 ## Resources
 
