@@ -8,6 +8,8 @@ Welcome to the JavaScript Course! This guide will help you learn JavaScript from
 
 1. [Introduction](#introduction)
 
+1. [Project: Modal Window](#project-modal-window)
+
 1. [Resources](#resources)
 
 ---
@@ -15,6 +17,12 @@ Welcome to the JavaScript Course! This guide will help you learn JavaScript from
 ## Introduction
 
 JavaScript is a versatile programming language used for web development, server-side applications, and [more](/00-Introduction/Intro.md).
+
+---
+
+## Project: Modal Window
+
+In this project, we will create a simple modal window that can be opened and closed using JavaScript. This is a common feature in web applications.
 
 ---
 
